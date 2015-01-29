@@ -44,7 +44,7 @@ a, a:hover, a:focus {
 
 /* Bootstrap Modifications */
 .modal-header {
-	background: #68dff0;
+	background: #6DC9F2;
 }
 
 .modal-title {
@@ -91,8 +91,9 @@ a, a:hover, a:focus {
 /*Theme Buttons*/
 
 .btn-theme {
+  transition: 0.5s;
   color: #fff;
-  background-color: #68dff0;
+  background-color: #6DC9F2;
   border-color: #48bcb4;
 }
 .btn-theme:hover,
@@ -100,9 +101,10 @@ a, a:hover, a:focus {
 .btn-theme:active,
 .btn-theme.active,
 .open .dropdown-toggle.btn-theme {
+  transition: 0.5s;
   color: #fff;
-  background-color: #48bcb4;
-  border-color: #48bcb4;
+  background-color: #05b8ff;
+  border-color: #05b8ff;
 }
 
 .btn-theme02 {
@@ -1936,7 +1938,7 @@ label {
 	margin: 0;
 	padding: 25px 20px;
 	text-align: center;
-	background: #68dff0;
+	background: #6DC9F2;
 	border-radius: 5px 5px 0 0;
 	-webkit-border-radius: 5px 5px 0 0;
 	color: #fff;
@@ -1996,6 +1998,7 @@ label {
 
 
 .btn-facebook {
+  transition: 0.5s;
   color: #fff;
   background-color: #5193ea;
   border-color: #2775e2;
@@ -2005,12 +2008,14 @@ label {
 .btn-facebook:active,
 .btn-facebook.active,
 .open .dropdown-toggle.btn-facebook {
+  transition: 0.5s;
   color: #fff;
   background-color: #2775e2;
   border-color: #2775e2;
 }
 
 .btn-twitter {
+  transition: 0.5s;
   color: #fff;
   background-color: #44ccfe;
   border-color: #2bb4e8;
@@ -2020,6 +2025,7 @@ label {
 .btn-twitter:active,
 .btn-twitter.active,
 .open .dropdown-toggle.btn-twitter {
+  transition: 0.5s;
   color: #fff;
   background-color: #2bb4e8;
   border-color: #2bb4e8;
@@ -2240,4 +2246,13 @@ label {
     min-height: 900px;
 }
 
+#sign-in-btn{
+    transition: .5s;
+    background-color:#6DC9F2;
+}
+
+#sign-in-btn:hover{
+    transition: .5s;
+    background-color: #05b8ff;
+}
 
